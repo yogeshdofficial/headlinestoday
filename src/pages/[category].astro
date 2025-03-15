@@ -3,6 +3,7 @@ import DomainChooser from "@/components/domainChooser.astro";
 import TitleList from "@/components/TitleList.astro";
 import { categorizedFeeds } from "@/constants/categorizedFeeds";
 import BaseLayout from "@/layouts/BaseLayout.astro";
+import { feedUrlToJson } from "@/utils/rssParser";
 export function getStaticPaths() {
   const paths = Object.keys(categorizedFeeds).map((categoryName) => {
     return { params: { category: categoryName } };
@@ -12,6 +13,13 @@ export function getStaticPaths() {
 }
 
 const { category } = Astro.params;
+
+const feedPromises = categorizedFeeds.android.map((feedData) => {
+  return feedUrlToJson(feedData.url);
+});
+
+const feed = await Promise.all(feedPromises);
+// console.log(feed);
 ---
 
 <BaseLayout>
@@ -22,8 +30,13 @@ const { category } = Astro.params;
   <h1 class="p-3 text-2xl font-bold">{category}</h1>
   <main class="p-3 flex flex-col gap-4">
     {
-      categorizedFeeds[category].map((feedData) => {
-        return <TitleList feedData={feedData} />;
+      feed.map((feedData, i) => {
+        return (
+          <TitleList
+            feedData={feedData}
+            domain={categorizedFeeds[category][i].domain}
+          />
+        );
       })
     }
   </main>
