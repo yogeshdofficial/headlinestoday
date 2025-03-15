@@ -1,0 +1,30 @@
+---
+import DomainChooser from "@/components/domainChooser.astro";
+import TitleList from "@/components/TitleList.astro";
+import { categorizedFeeds } from "@/constants/categorizedFeeds";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+export function getStaticPaths() {
+  const paths = Object.keys(categorizedFeeds).map((categoryName) => {
+    return { params: { category: categoryName } };
+  });
+  // console.log(paths);
+  return paths;
+}
+
+const { category } = Astro.params;
+---
+
+<BaseLayout>
+  <DomainChooser
+    category={category}
+    domains={categorizedFeeds[category].map((feedData) => feedData.domain)}
+  />
+  <h1 class="p-3 text-2xl font-bold">{category}</h1>
+  <main class="p-3 flex flex-col gap-4">
+    {
+      categorizedFeeds[category].map((feedData) => {
+        return <TitleList feedData={feedData} />;
+      })
+    }
+  </main>
+</BaseLayout>

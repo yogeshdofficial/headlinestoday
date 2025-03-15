@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-lexend: "Lexend Variable", sans-serif;
+  --font-medula-one: "Medula One", system-ui;
+}

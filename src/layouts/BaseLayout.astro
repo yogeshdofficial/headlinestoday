@@ -1,0 +1,65 @@
+---
+import { categorizedFeeds } from "@/constants/categorizedFeeds";
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+import "@fontsource-variable/lexend";
+import "@fontsource/medula-one";
+import lexendWoff2 from "@fontsource-variable/lexend/files/lexend-latin-wght-normal.woff2";
+import medulaWoff2 from "@fontsource/medula-one/files/medula-one-latin-400-normal.woff2";
+import Sidebar from "@/components/Sidebar.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={lexendWoff2}
+      crossorigin="anonymous"
+    /><link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={lexendWoff2}
+      crossorigin="anonymous"
+    /><link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={medulaWoff2}
+      crossorigin="anonymous"
+    />
+
+    <title>HeadlinesToday</title>
+  </head>
+  <body
+    class="bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 h-full w-full font-lexend"
+  >
+    <Sidebar categories={Object.keys(categorizedFeeds)} />
+    <Header />
+    <slot />
+  </body>
+</html>
+
+<script>
+  import { setTheme } from "@/utils/dom/setTheme";
+  setTheme();
+
+  const sunIcon = document.querySelector("#sunIcon");
+  const moonIcon = document.querySelector("#moonIcon");
+
+  sunIcon?.addEventListener("click", () => {
+    document.documentElement.classList.remove("dark");
+    console.log("click sun");
+  });
+  moonIcon?.addEventListener("click", () => {
+    document.documentElement.classList.add("dark");
+    console.log("click moon");
+  });
+</script>

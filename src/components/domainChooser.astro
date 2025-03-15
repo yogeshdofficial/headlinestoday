@@ -1,0 +1,15 @@
+---
+const { domains, category } = Astro.props;
+---
+
+<div class="flex gap-2 p-2 overflow-x-scroll items-start">
+  {
+    domains.map((domain) => {
+      return (
+        <a class="border rounded px-1 py-1 text-nowrap" href={`#${domain}`}>
+          {domain}
+        </a>
+      );
+    })
+  }
+</div>

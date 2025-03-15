@@ -1,0 +1,25 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<header
+  class="flex justify-between p-2 bg-neutral-200 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 h-16"
+>
+  <div class="flex gap-2 items-center">
+    <Icon name={"lucide:menu"} class={"size-6"} id={"menuIcon"} />
+    <span class="font-medula-one text-3xl">HeadlinesToday</span>
+  </div>
+  <div class="flex items-center">
+    <Icon id="sunIcon" name={"lucide:sun"} class={"size-6 hidden dark:block"} />
+    <Icon id="moonIcon" name={"lucide:moon"} class={"size-6 dark:hidden"} />
+  </div>
+</header>
+
+<script>
+  const menuIcon = document.querySelector("#menuIcon");
+  const sidebar = document.querySelector("#sidebar");
+
+  menuIcon?.addEventListener("click", () => {
+    sidebar?.classList.add("w-[300px]");
+  });
+</script>

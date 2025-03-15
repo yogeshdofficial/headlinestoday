@@ -1,0 +1,37 @@
+---
+import { Icon } from "astro-icon/components";
+const { categories } = Astro.props;
+---
+
+<aside>
+  <nav
+    class="flex-col text-lg gap-2 absolute bg-neutral-200/30 dark:bg-neutral-800/30 text-neutral-900 dark:text-neutral-100 flex overflow-hidden w-0 transition-all backdrop-blur-2xl h-screen"
+    id="sidebar"
+  >
+    <div class="p-2 flex justify-between items-center">
+      <span>Categories</span>
+      <Icon id={"closeIcon"} name="lucide:x" class="size-6" />
+    </div>
+    <ul class="px-2">
+      {
+        categories.map((category) => (
+          <li>
+            <a href={`/${category}`}>
+              {category.split("_").map((word) => {
+                return word.charAt(0).toUpperCase() + word.slice(1) + " ";
+              })}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</aside>
+
+<script>
+  const closeIcon = document.querySelector("#closeIcon");
+  const sidebar = document.querySelector("#sidebar");
+  closeIcon?.addEventListener("click", () => {
+    sidebar?.classList.remove("w-[300px]");
+  });
+</script>
