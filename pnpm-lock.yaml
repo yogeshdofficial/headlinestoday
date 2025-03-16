@@ -11,9 +11,18 @@ importers:
       '@fontsource-variable/lexend':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource/bebas-neue':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@fontsource/medula-one':
         specifier: ^5.2.5
         version: 5.2.5
+      '@iconify-json/ant-design':
+        specifier: ^1.2.5
+        version: 1.2.5
+      '@iconify-json/ic':
+        specifier: ^1.2.2
+        version: 1.2.2
       '@iconify-json/lucide':
         specifier: ^1.2.30
         version: 1.2.30
@@ -26,6 +35,9 @@ importers:
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
       rss-parser:
         specifier: ^3.13.0
         version: 3.13.0
@@ -235,8 +247,17 @@ packages:
   '@fontsource-variable/lexend@5.2.5':
     resolution: {integrity: sha512-DSu1iT7DAyt6Sebw/0NkrqXBmwo9iGYfvfczfTge52Rxgu3l5zKqnHr9vujOLKw62oGAio4MnMUywaSHqmjAvg==}
 
+  '@fontsource/bebas-neue@5.2.5':
+    resolution: {integrity: sha512-9hZCl9BpuwrIPRgprS17WRHMRyqprFKxNEDOl98en9XzikR8GGXpeiLaKf5HpNm1NKnVo/EowTjcgcgrvW3h0w==}
+
   '@fontsource/medula-one@5.2.5':
     resolution: {integrity: sha512-9bF6TeihO4by0nyIWoKhu2VvBwdBKqjvIHwS/6dj6ulKRxZ2u1WSaEP9r2j0DLqXyL9DcVDRdiwsjowRFGLWDg==}
+
+  '@iconify-json/ant-design@1.2.5':
+    resolution: {integrity: sha512-SYxhrx1AFq2MBcXk77AERYz2mPhLQes1F0vtvG64+dJZWyge9studXo7MiR8PPeLjRjZdWRrReRbxiwdRMf70Q==}
+
+  '@iconify-json/ic@1.2.2':
+    resolution: {integrity: sha512-QmjwS3lYiOmVWgTCEOTFyGODaR/+689+ajep/VsrCcsUN0Gdle5PmIcibDsdmRyrOsW/E77G41UUijdbjQUofw==}
 
   '@iconify-json/lucide@1.2.30':
     resolution: {integrity: sha512-0EaiofYbUwnp15sNC3cOJi0oD5DbbfDKbnIEA6jJ+WGHigyePgBVmx/5/S97XQmvl+Ix/Md3oGLKxkI5szL0rg==}
@@ -2052,7 +2073,17 @@ snapshots:
 
   '@fontsource-variable/lexend@5.2.5': {}
 
+  '@fontsource/bebas-neue@5.2.5': {}
+
   '@fontsource/medula-one@5.2.5': {}
+
+  '@iconify-json/ant-design@1.2.5':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/ic@1.2.2':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify-json/lucide@1.2.30':
     dependencies:

@@ -1,24 +1,44 @@
 ---
+import { icons } from "@/utils/icons";
 import { Icon } from "astro-icon/components";
 const { categories } = Astro.props;
+import clsx from "clsx";
+const pathname = new URL(Astro.request.url).pathname;
+console.log(pathname);
 ---
 
 <aside>
   <nav
-    class="flex-col text-lg gap-2 absolute bg-neutral-200/30 dark:bg-neutral-800/30 text-neutral-900 dark:text-neutral-100 flex overflow-hidden w-0 transition-all backdrop-blur-2xl h-screen"
+    class="flex-col fixed h-screen text-lg gap-2 bg-neutral-300/20 dark:bg-neutral-700/30 text-neutral-900 dark:text-neutral-100 flex overflow-hidden w-0 transition-all backdrop-blur-2xl"
     id="sidebar"
   >
-    <div class="p-2 flex justify-between items-center">
+    <div class="p-4 flex justify-between items-center text-3xl font-medula-one">
       <span>Categories</span>
-      <Icon id={"closeIcon"} name="lucide:x" class="size-6" />
+      <Icon id={"closeIcon"} name="lucide:x" class="size-8" />
     </div>
-    <ul class="px-2">
+    <ul class="px-4 flex flex-col gap-1.5">
       {
         categories.map((category) => (
-          <li>
+          <li
+            class={clsx(
+              "hover:bg-neutral-400 dark:hover:bg-neutral-500 p-2 rounded",
+              pathname == "/" + category && "border-2"
+            )}
+          >
             <a href={`/${category}`}>
               {category.split("_").map((word) => {
-                return word.charAt(0).toUpperCase() + word.slice(1) + " ";
+                return (
+                  <div class="flex gap-1 items-center">
+                    <span>
+                      {icons[category] && (
+                        <Icon class="size-6" name={icons[category]} />
+                      )}
+                    </span>
+                    <span>
+                      {word.charAt(0).toUpperCase() + word.slice(1) + " "}{" "}
+                    </span>
+                  </div>
+                );
               })}
             </a>
           </li>
