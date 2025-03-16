@@ -2,7 +2,7 @@
 import { feedUrlToJson } from "@/utils/rssParser";
 const { feedData, domain } = Astro.props;
 
-console.log(domain);
+// console.log(domain);
 
 // const domain = feedData.domain;
 // const url = feedData.url;
@@ -18,7 +18,7 @@ console.log(domain);
         feedData.slice(0, 5).map((data) => {
           return (
             <li>
-              <a href={data.link} target="_blank">
+              <a class="text-lg" href={data.link} target="_blank">
                 {data.title}
               </a>
             </li>

@@ -10,8 +10,16 @@ import { Icon } from "astro-icon/components";
     <span class="font-medula-one text-3xl">HeadlinesToday</span>
   </div>
   <div class="flex items-center">
-    <Icon id="sunIcon" name={"lucide:sun"} class={"size-6 hidden dark:block"} />
-    <Icon id="moonIcon" name={"lucide:moon"} class={"size-6 dark:hidden"} />
+    <Icon
+      id="sunIcon"
+      name={"lucide:sun"}
+      class={"hover:scale-[1.2] transition-all size-6 hidden dark:block"}
+    />
+    <Icon
+      id="moonIcon"
+      name={"lucide:moon"}
+      class={"hover:scale-[1.2] transition-all size-6 dark:hidden"}
+    />
   </div>
 </header>
 

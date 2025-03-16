@@ -6,7 +6,10 @@ const { domains, category } = Astro.props;
   {
     domains.map((domain) => {
       return (
-        <a class="border rounded px-1 py-1 text-nowrap" href={`#${domain}`}>
+        <a
+          class="border rounded px-1 py-1 text-nowrap hover:scale-[1.1] transition-all"
+          href={`#${domain}`}
+        >
           {domain}
         </a>
       );
