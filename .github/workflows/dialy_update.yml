@@ -3,7 +3,7 @@ name: dialy news update
 
 on:
   schedule:
-    - cron: "30 11 * * *" #runs at 11:30 UTC everyday
+    - cron: "0 */6 * * *" #runs at 11:30 UTC everyday
   workflow_dispatch:
   push:
     branches:
