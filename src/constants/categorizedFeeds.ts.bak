@@ -1,0 +1,30 @@
+export const categorizedFeeds = {
+  programming: [
+    {
+      url: "https://medium.com/feed/better-programming",
+      domain: "betterprogramming.pub",
+    },
+    {
+      url: "https://codeascraft.com/feed/atom/",
+      domain: "codeascraft.com",
+    },
+    {
+      url: "http://feeds.codenewbie.org/cnpodcast.xml",
+      domain: "codernewbie.org",
+    },
+  ],
+  android: [
+    {
+      domain: "blog.google",
+      url: "https://blog.google/products/android/rss",
+    },
+    {
+      domain: "reddit.com",
+      url: "https://www.reddit.com/r/android/.rss",
+    },
+    {
+      domain: "androidauthority.com",
+      url: "https://www.androidauthority.com/feed",
+    },
+  ],
+};
