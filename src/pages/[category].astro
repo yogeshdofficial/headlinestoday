@@ -14,12 +14,12 @@ export function getStaticPaths() {
 
 const { category } = Astro.params;
 
-const feedPromises = categorizedFeeds.android.map((feedData) => {
+const feedPromises = categorizedFeeds[category].map((feedData) => {
   return feedUrlToJson(feedData.url);
 });
 
 const feed = await Promise.all(feedPromises);
-// console.log(feed);
+// console.log(">>>>>>>", feed);
 ---
 
 <BaseLayout>
@@ -31,6 +31,10 @@ const feed = await Promise.all(feedPromises);
   <main class="p-3 flex flex-col gap-4">
     {
       feed.map((feedData, i) => {
+        // console.log(categorizedFeeds[category][i].domain);
+        // console.log(i, categorizedFeeds[category][i]);
+        // console.log(feedData);
+
         return (
           <TitleList
             feedData={feedData}
