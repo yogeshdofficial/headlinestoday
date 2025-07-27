@@ -1,200 +1,200 @@
 export const categorizedFeeds = {
   programming: [
     {
-      url: "https://medium.com/feed/better-programming",
-      domain: "betterprogramming.pub",
-    },
-    {
-      url: "https://codeascraft.com/feed/atom/",
-      domain: "codeascraft.com",
-    },
-    {
-      url: "http://feeds.codenewbie.org/cnpodcast.xml",
-      domain: "codernewbie.org",
-    },
-    {
-      url: "https://feeds.feedburner.com/codinghorror",
-      domain: "blog.codinghorror.com",
-    },
-    {
-      url: "https://completedeveloperpodcast.com/feed/podcast/",
-      domain: "completedeveloperpodcast.com",
-    },
-    {
-      url: "https://overreacted.io/rss.xml",
-      domain: "overreacted.io",
-    },
-    {
-      url: "https://feeds.simplecast.com/dLRotFGk",
-      domain: "developertea.com",
-    },
-    {
-      url: "https://blog.twitter.com/engineering/en_us/blog.rss",
-      domain: "blog.twitter.com",
-    },
-    {
-      url: "https://feeds.twit.tv/floss.xml",
-      domain: "twit.tv",
-    },
-    {
-      url: "https://engineering.fb.com/feed/",
-      domain: "engineering.fb.com",
-    },
-    {
-      url: "https://about.gitlab.com/atom.xml",
-      domain: "about.gitlab.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/GDBcode",
-      domain: "developers.googleblog.com",
-    },
-    {
-      url: "https://medium.com/feed/hackernoon",
-      domain: "medium.com",
-    },
-    {
-      url: "https://feeds.simplecast.com/gvtxulf",
-      domain: "hanselminutes.com",
-    },
-    {
-      url: "https://feed.infoq.com",
-      domain: "infoq.com",
-    },
-    {
-      url: "https://instagram-engineering.com/feed/",
-      domain: "instagram-engineering.com",
-    },
-    {
-      url: "https://blog.jooq.org/feed",
-      domain: "blog.jooq.org",
-    },
-    {
-      url: "https://blog.jetbrains.com/feed",
-      domain: "blog.jetbrains.com",
-    },
-    {
-      url: "https://www.joelonsoftware.com/feed/",
-      domain: "joelonsoftware.com",
-    },
-    {
-      url: "https://engineering.linkedin.com/blog.rss.html",
-      domain: "engineering.linkedin.com",
-    },
-    {
-      url: "https://martinfowler.com/feed/atom",
-      domain: "martinfowler.com",
-    },
-    {
-      url: "https://netflixtechblog.com/feed",
-      domain: "netflixtechblog.com",
-    },
-    {
-      url: "https://buffer.com/resources/overflow/rss/",
-      domain: "buffer.com",
-    },
-    {
-      url: "https://softwareengineeringdaily.com/category/podcast/feed",
-      domain: "softwareengineeringdaily.com",
-    },
-    {
-      url: "https://www.thirtythreeforty.net/posts/index.xml",
-      domain: "thirtythreeforty.net",
-    },
-    {
-      url: "https://engineering.prezi.com/feed",
-      domain: "engineering.prezi.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/ProgrammingThrowdown",
-      domain: "programmingthrowdown.com",
-    },
-    {
-      url: "https://www.thecrazyprogrammer.com/category/programming/feed",
-      domain: "thecrazyprogrammer.com",
-    },
-    {
-      url: "https://robertheaton.com/feed.xml",
-      domain: "robertheaton.com",
-    },
-    {
-      url: "http://feeds.hanselman.com/ScottHanselman",
-      domain: "hanselman.com",
-    },
-    {
-      url: "http://scripting.com/ss.xml",
-      domain: "scripting.com",
-    },
-    {
-      url: "https://m.signalvnoise.com/feed/",
-      domain: "m.signalvnoise.com",
-    },
-    {
-      url: "https://slack.engineering/feed",
-      domain: "slack.engineering",
-    },
-    {
-      url: "https://feeds.fireside.fm/sdt/rss",
-      domain: "softwaredefinedtalk.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/se-radio",
-      domain: "se-radio.net",
-    },
-    {
-      url: "https://developers.soundcloud.com/blog/blog.rss",
-      domain: "developers.soundcloud.com",
-    },
-    {
-      url: "https://labs.spotify.com/feed/",
-      domain: "engineering.atspotify.com",
-    },
-    {
-      url: "https://stackabuse.com/rss/",
-      domain: "stackabuse.com",
-    },
-    {
-      url: "https://stackoverflow.blog/feed/",
-      domain: "stackoverflow.blog",
-    },
-    {
-      url: "http://6figuredev.com/feed/rss/",
-      domain: "6figuredev.com",
-    },
-    {
-      url: "https://medium.com/feed/airbnb-engineering",
-      domain: "medium.com",
-    },
-    {
-      url: "https://cynicaldeveloper.com/feed/podcast",
-      domain: "cynical.dev",
+      url: "https://www.reddit.com/r/programming/.rss",
+      domain: "reddit.com",
     },
     {
       url: "https://github.blog/feed/",
       domain: "github.blog",
     },
     {
-      url: "https://feeds.transistor.fm/productivity-in-tech-podcast",
-      domain: "productivityintech.com",
+      url: "http://feeds.feedburner.com/GDBcode",
+      domain: "developers.googleblog.com",
     },
     {
-      url: "http://therabbithole.libsyn.com/rss",
-      domain: "therabbithole.libsyn.com",
+      url: "https://stackoverflow.blog/feed/",
+      domain: "stackoverflow.blog",
     },
     {
       url: "https://feeds.simplecast.com/XA_851k3",
       domain: "stackoverflow.blog",
     },
     {
-      url: "https://feeds.fireside.fm/standup/rss",
-      domain: "standup.fm",
+      url: "https://engineering.fb.com/feed/",
+      domain: "engineering.fb.com",
+    },
+    {
+      url: "https://netflixtechblog.com/feed",
+      domain: "netflixtechblog.com",
+    },
+    {
+      url: "https://engineering.linkedin.com/blog.rss.html",
+      domain: "engineering.linkedin.com",
+    },
+    {
+      url: "https://medium.com/feed/airbnb-engineering",
+      domain: "medium.com",
+    },
+    {
+      url: "https://labs.spotify.com/feed/",
+      domain: "engineering.atspotify.com",
+    },
+    {
+      url: "https://slack.engineering/feed",
+      domain: "slack.engineering",
+    },
+    {
+      url: "https://instagram-engineering.com/feed/",
+      domain: "instagram-engineering.com",
+    },
+    {
+      url: "https://blog.twitter.com/engineering/en_us/blog.rss",
+      domain: "blog.twitter.com",
+    },
+    {
+      url: "https://developers.soundcloud.com/blog/blog.rss",
+      domain: "developers.soundcloud.com",
+    },
+    {
+      url: "https://about.gitlab.com/atom.xml",
+      domain: "about.gitlab.com",
+    },
+    {
+      url: "https://blog.jetbrains.com/feed",
+      domain: "blog.jetbrains.com",
+    },
+    {
+      url: "https://feed.infoq.com",
+      domain: "infoq.com",
+    },
+    {
+      url: "https://martinfowler.com/feed/atom",
+      domain: "martinfowler.com",
+    },
+    {
+      url: "https://feeds.feedburner.com/codinghorror",
+      domain: "blog.codinghorror.com",
+    },
+    {
+      url: "https://www.joelonsoftware.com/feed/",
+      domain: "joelonsoftware.com",
+    },
+    {
+      url: "http://feeds.hanselman.com/ScottHanselman",
+      domain: "hanselman.com",
+    },
+    {
+      url: "https://overreacted.io/rss.xml",
+      domain: "overreacted.io",
+    },
+    {
+      url: "https://medium.com/feed/better-programming",
+      domain: "betterprogramming.pub",
+    },
+    {
+      url: "https://medium.com/feed/hackernoon",
+      domain: "medium.com",
+    },
+    {
+      url: "https://codeascraft.com/feed/atom/",
+      domain: "codeascraft.com",
+    },
+    {
+      url: "https://m.signalvnoise.com/feed/",
+      domain: "m.signalvnoise.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/se-radio",
+      domain: "se-radio.net",
+    },
+    {
+      url: "https://softwareengineeringdaily.com/category/podcast/feed",
+      domain: "softwareengineeringdaily.com",
+    },
+    {
+      url: "https://feeds.simplecast.com/gvtxulf",
+      domain: "hanselminutes.com",
+    },
+    {
+      url: "https://feeds.simplecast.com/dLRotFGk",
+      domain: "developertea.com",
+    },
+    {
+      url: "https://feeds.twit.tv/floss.xml",
+      domain: "twit.tv",
+    },
+    {
+      url: "https://stackabuse.com/rss/",
+      domain: "stackabuse.com",
+    },
+    {
+      url: "https://buffer.com/resources/overflow/rss/",
+      domain: "buffer.com",
+    },
+    {
+      url: "https://engineering.prezi.com/feed",
+      domain: "engineering.prezi.com",
+    },
+    {
+      url: "https://blog.jooq.org/feed",
+      domain: "blog.jooq.org",
+    },
+    {
+      url: "http://feeds.codenewbie.org/cnpodcast.xml",
+      domain: "codernewbie.org",
+    },
+    {
+      url: "https://completedeveloperpodcast.com/feed/podcast/",
+      domain: "completedeveloperpodcast.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/ProgrammingThrowdown",
+      domain: "programmingthrowdown.com",
+    },
+    {
+      url: "https://feeds.fireside.fm/sdt/rss",
+      domain: "softwaredefinedtalk.com",
     },
     {
       url: "https://thewomenintechshow.com/category/podcast/feed/",
       domain: "thewomenintechshow.com",
     },
     {
-      url: "https://www.reddit.com/r/programming/.rss",
-      domain: "reddit.com",
+      url: "https://cynicaldeveloper.com/feed/podcast",
+      domain: "cynical.dev",
+    },
+    {
+      url: "https://feeds.transistor.fm/productivity-in-tech-podcast",
+      domain: "productivityintech.com",
+    },
+    {
+      url: "https://feeds.fireside.fm/standup/rss",
+      domain: "standup.fm",
+    },
+    {
+      url: "http://therabbithole.libsyn.com/rss",
+      domain: "therabbithole.libsyn.com",
+    },
+    {
+      url: "https://robertheaton.com/feed.xml",
+      domain: "robertheaton.com",
+    },
+    {
+      url: "http://scripting.com/ss.xml",
+      domain: "scripting.com",
+    },
+    {
+      url: "https://www.thecrazyprogrammer.com/category/programming/feed",
+      domain: "thecrazyprogrammer.com",
+    },
+    {
+      url: "https://www.thirtythreeforty.net/posts/index.xml",
+      domain: "thirtythreeforty.net",
+    },
+    {
+      url: "http://6figuredev.com/feed/rss/",
+      domain: "6figuredev.com",
     },
   ],
   android: [
@@ -207,16 +207,12 @@ export const categorizedFeeds = {
       url: "https://www.reddit.com/r/android/.rss",
     },
     {
-      domain: "androidauthority.com",
-      url: "https://www.androidauthority.com/feed",
-    },
-    {
       domain: "youtube.com",
       url: "https://www.youtube.com/feeds/videos.xml?user=AndroidAuthority",
     },
     {
-      domain: "androidauthority.com",
-      url: "https://androidauthority.libsyn.com/rss",
+      domain: "androidpolice.com",
+      url: "http://feeds.feedburner.com/AndroidPolice",
     },
     {
       domain: "androidcentral.com",
@@ -227,16 +223,44 @@ export const categorizedFeeds = {
       url: "http://feeds.feedburner.com/AndroidCentralPodcast",
     },
     {
+      domain: "androidauthority.com",
+      url: "https://www.androidauthority.com/feed",
+    },
+    {
+      domain: "androidauthority.com",
+      url: "https://androidauthority.libsyn.com/rss",
+    },
+    {
+      domain: "droid-life.com",
+      url: "https://www.droid-life.com/feed",
+    },
+    {
+      domain: "xda-developers.com",
+      url: "https://data.xda-developers.com/portal-feed",
+    },
+    {
+      domain: "gsmarena.com",
+      url: "https://www.gsmarena.com/rss-news-reviews.php3",
+    },
+    {
       domain: "androidcommunity.com",
       url: "https://androidcommunity.com/feed/",
     },
     {
-      domain: "androidpolice.com",
-      url: "http://feeds.feedburner.com/AndroidPolice",
+      domain: "phandroid.com",
+      url: "http://feeds2.feedburner.com/AndroidPhoneFans",
+    },
+    {
+      domain: "twit.tv",
+      url: "https://feeds.twit.tv/aaa.xml",
     },
     {
       domain: "androidguys.com",
       url: "https://www.androidguys.com/feed",
+    },
+    {
+      domain: "talkandroid.com",
+      url: "http://feeds.feedburner.com/AndroidNewsGoogleAndroidForums",
     },
     {
       domain: "cultofandroid.com",
@@ -246,36 +270,8 @@ export const categorizedFeeds = {
       domain: "cyanogenmods.org",
       url: "https://www.cyanogenmods.org/feed",
     },
-    {
-      domain: "droid-life.com",
-      url: "https://www.droid-life.com/feed",
-    },
-    {
-      domain: "gsmarena.com",
-      url: "https://www.gsmarena.com/rss-news-reviews.php3",
-    },
-    {
-      domain: "phandroid.com",
-      url: "http://feeds2.feedburner.com/AndroidPhoneFans",
-    },
-    {
-      domain: "talkandroid.com",
-      url: "http://feeds.feedburner.com/AndroidNewsGoogleAndroidForums",
-    },
-    {
-      domain: "xda-developers.com",
-      url: "https://data.xda-developers.com/portal-feed",
-    },
-    {
-      domain: "twit.tv",
-      url: "https://feeds.twit.tv/aaa.xml",
-    },
   ],
   android_development: [
-    {
-      domain: "buffer.com",
-      url: "https://buffer.com/resources/android/rss/",
-    },
     {
       domain: "youtube.com",
       url: "https://www.youtube.com/feeds/videos.xml?user=androiddevelopers",
@@ -285,16 +281,20 @@ export const categorizedFeeds = {
       url: "https://medium.com/feed/androiddevelopers",
     },
     {
-      domain: "androidbackstage.blogspot.com",
-      url: "http://feeds.feedburner.com/blogspot/androiddevelopersbackstage",
-    },
-    {
       domain: "android-developers.googleblog.com",
       url: "http://feeds.feedburner.com/blogspot/hsDu",
     },
     {
-      domain: "us2.campaign-archive.com",
-      url: "https://us2.campaign-archive.com/feed?u=887caf4f48db76fd91e20a06d&id=4eb677ad19",
+      domain: "reddit.com",
+      url: "https://reddit.com/r/androiddev.rss",
+    },
+    {
+      domain: "medium.com",
+      url: "https://medium.com/feed/airbnb-engineering/tagged/android",
+    },
+    {
+      domain: "proandroiddev.com",
+      url: "https://proandroiddev.com/feed",
     },
     {
       domain: "instagram-engineering.com",
@@ -305,84 +305,36 @@ export const categorizedFeeds = {
       url: "https://medium.com/feed/mindorks/tagged/android",
     },
     {
-      domain: "medium.com",
-      url: "https://medium.com/feed/airbnb-engineering/tagged/android",
-    },
-    {
-      domain: "blog.danlew.net",
-      url: "https://blog.danlew.net/rss/",
-    },
-    {
-      domain: "reddit.com",
-      url: "https://reddit.com/r/androiddev.rss",
-    },
-    {
-      domain: "fragmentedpodcast.com",
-      url: "https://feeds.simplecast.com/LpAGSLnY",
-    },
-    {
-      domain: "handstandsam.com",
-      url: "https://handstandsam.com/feed/",
-    },
-    {
-      domain: "jakewharton.com",
-      url: "https://jakewharton.com/atom.xml",
-    },
-    {
       domain: "blog.jetbrains.com",
       url: "https://blog.jetbrains.com/blog/feed",
-    },
-    {
-      domain: "joebirch.co",
-      url: "https://joebirch.co/feed",
-    },
-    {
-      domain: "youtube.com",
-      url: "https://www.youtube.com/feeds/videos.xml?playlist_id=PLQ176FUIylUa6SChjajjVc-LMzxWiz6dy",
-    },
-    {
-      domain: "blog.kotlin-academy.com",
-      url: "https://blog.kotlin-academy.com/feed",
-    },
-    {
-      domain: "okkotlin.com",
-      url: "https://okkotlin.com/rss.xml",
-    },
-    {
-      domain: "proandroiddev.com",
-      url: "https://proandroiddev.com/feed",
-    },
-    {
-      domain: "publicobject.com",
-      url: "https://publicobject.com/rss/",
-    },
-    {
-      domain: "saket.me",
-      url: "https://saket.me/feed/",
-    },
-    {
-      domain: "blog.stylingandroid.com",
-      url: "http://feeds.feedburner.com/StylingAndroid",
-    },
-    {
-      domain: "talkingkotlin.com",
-      url: "https://feeds.soundcloud.com/users/soundcloud:users:280353173/sounds.rss",
     },
     {
       domain: "android-arsenal.com",
       url: "https://feeds.feedburner.com/Android_Arsenal",
     },
     {
-      domain: "zacsweers.dev",
-      url: "https://www.zacsweers.dev/rss/",
+      domain: "jakewharton.com",
+      url: "https://jakewharton.com/atom.xml",
     },
     {
-      domain: "zarah.dev",
-      url: "https://zarah.dev/feed.xml",
+      domain: "blog.stylingandroid.com",
+      url: "http://feeds.feedburner.com/StylingAndroid",
     },
     {
-      domain: "chrynan.codes",
-      url: "https://chrynan.codes/rss/",
+      domain: "fragmentedpodcast.com",
+      url: "https://feeds.simplecast.com/LpAGSLnY",
+    },
+    {
+      domain: "talkingkotlin.com",
+      url: "https://feeds.soundcloud.com/users/soundcloud:users:280353173/sounds.rss",
+    },
+    {
+      domain: "blog.kotlin-academy.com",
+      url: "https://blog.kotlin-academy.com/feed",
+    },
+    {
+      domain: "youtube.com",
+      url: "https://www.youtube.com/feeds/videos.xml?playlist_id=PLQ176FUIylUa6SChjajjVc-LMzxWiz6dy",
     },
     {
       domain: "youtube.com",
@@ -393,136 +345,184 @@ export const categorizedFeeds = {
       url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCKubKoe1CBw_-n_GXetEQbg",
     },
     {
-      domain: "goobar.io",
-      url: "https://goobar.io/feed",
+      domain: "blog.danlew.net",
+      url: "https://blog.danlew.net/rss/",
+    },
+    {
+      domain: "zacsweers.dev",
+      url: "https://www.zacsweers.dev/rss/",
+    },
+    {
+      domain: "zarah.dev",
+      url: "https://zarah.dev/feed.xml",
+    },
+    {
+      domain: "joebirch.co",
+      url: "https://joebirch.co/feed",
+    },
+    {
+      domain: "publicobject.com",
+      url: "https://publicobject.com/rss/",
+    },
+    {
+      domain: "saket.me",
+      url: "https://saket.me/feed/",
     },
     {
       domain: "zsmb.co",
       url: "https://zsmb.co/index.xml",
     },
+    {
+      domain: "okkotlin.com",
+      url: "https://okkotlin.com/rss.xml",
+    },
+    {
+      domain: "handstandsam.com",
+      url: "https://handstandsam.com/feed/",
+    },
+    {
+      domain: "goobar.io",
+      url: "https://goobar.io/feed",
+    },
+    {
+      domain: "chrynan.codes",
+      url: "https://chrynan.codes/rss/",
+    },
+    {
+      domain: "buffer.com",
+      url: "https://buffer.com/resources/android/rss/",
+    },
+    {
+      domain: "androidbackstage.blogspot.com",
+      url: "http://feeds.feedburner.com/blogspot/androiddevelopersbackstage",
+    },
+    {
+      domain: "us2.campaign-archive.com",
+      url: "https://us2.campaign-archive.com/feed?u=887caf4f48db76fd91e20a06d&id=4eb677ad19",
+    },
   ],
   apple: [
     {
-      domain: "9to5mac.com",
-      url: "https://9to5mac.com/feed",
+      domain: "apple.com",
+      url: "https://www.apple.com/newsroom/rss-feed.rss",
     },
     {
       domain: "youtube.com",
       url: "https://www.youtube.com/feeds/videos.xml?user=Apple",
     },
     {
-      domain: "apple.com",
-      url: "https://www.apple.com/newsroom/rss-feed.rss",
+      domain: "reddit.com",
+      url: "https://www.reddit.com/r/apple/.rss",
     },
     {
-      domain: "appleinsider.com",
-      url: "https://appleinsider.com/rss/news/",
+      domain: "reddit.com",
+      url: "https://www.reddit.com/r/iphone/.rss",
     },
     {
-      domain: "cultofmac.com",
-      url: "https://www.cultofmac.com/feed",
-    },
-    {
-      domain: "daringfireball.net",
-      url: "https://daringfireball.net/feeds/main",
-    },
-    {
-      domain: "youtube.com",
-      url: "https://www.youtube.com/feeds/videos.xml?user=macrumors",
+      domain: "9to5mac.com",
+      url: "https://9to5mac.com/feed",
     },
     {
       domain: "macrumors.com",
       url: "http://feeds.macrumors.com/MacRumors-Mac",
     },
     {
-      domain: "macstories.net",
-      url: "https://www.macstories.net/feed",
+      domain: "youtube.com",
+      url: "https://www.youtube.com/feeds/videos.xml?user=macrumors",
+    },
+    {
+      domain: "appleinsider.com",
+      url: "https://appleinsider.com/rss/news/",
     },
     {
       domain: "macworld.com",
       url: "https://www.macworld.com/index.rss",
     },
     {
+      domain: "imore.com",
+      url: "http://feeds.feedburner.com/TheiPhoneBlog",
+    },
+    {
+      domain: "macstories.net",
+      url: "https://www.macstories.net/feed",
+    },
+    {
+      domain: "daringfireball.net",
+      url: "https://daringfireball.net/feeds/main",
+    },
+    {
       domain: "marco.org",
       url: "https://marco.org/rss",
     },
     {
-      domain: "osxdaily.com",
-      url: "http://feeds.feedburner.com/osxdaily",
+      domain: "cultofmac.com",
+      url: "https://www.cultofmac.com/feed",
     },
     {
       domain: "loopinsight.com",
       url: "https://www.loopinsight.com/feed",
     },
     {
-      domain: "reddit.com",
-      url: "https://www.reddit.com/r/apple/.rss",
-    },
-    {
-      domain: "imore.com",
-      url: "http://feeds.feedburner.com/TheiPhoneBlog",
-    },
-    {
-      domain: "reddit.com",
-      url: "https://www.reddit.com/r/iphone/.rss",
+      domain: "osxdaily.com",
+      url: "http://feeds.feedburner.com/osxdaily",
     },
   ],
   architecture: [
     {
-      domain: "archidose.blogspot.com",
-      url: "http://feeds.feedburner.com/archidose",
+      domain: "reddit.com",
+      url: "https://www.reddit.com/r/architecture/.rss",
     },
     {
       domain: "archdaily.com",
       url: "http://feeds.feedburner.com/Archdaily",
     },
     {
-      domain: "archinect.com",
-      url: "https://archinect.com/feed/1/news",
+      domain: "dezeen.com",
+      url: "https://www.dezeen.com/architecture/feed/",
     },
     {
       domain: "architecturaldigest.com",
       url: "https://www.architecturaldigest.com/feed/rss",
     },
     {
-      domain: "youtube.com",
-      url: "https://www.youtube.com/feeds/videos.xml4",
-    },
-    {
-      domain: "reddit.com",
-      url: "https://www.reddit.com/r/architecture/.rss",
-    },
-    {
-      domain: "dezeen.com",
-      url: "https://www.dezeen.com/architecture/feed/",
-    },
-    {
-      domain: "contemporist.com",
-      url: "https://www.contemporist.com/feed/",
-    },
-    {
-      domain: "inhabitat.com",
-      url: "https://inhabitat.com/architecture/feed/",
-    },
-    {
-      domain: "design-milk.com",
-      url: "https://design-milk.com/category/architecture/feed/",
+      domain: "archinect.com",
+      url: "https://archinect.com/feed/1/news",
     },
     {
       domain: "architizer.com",
       url: "https://architizer.wpengine.com/feed/",
     },
     {
-      domain: "youtube.com",
-      url: "https://www.youtube.com/feeds/videos.xml5",
+      domain: "designboom.com",
+      url: "https://www.designboom.com/architecture/feed/",
     },
     {
       domain: "archpaper.com",
       url: "https://archpaper.com/feed",
     },
     {
-      domain: "designboom.com",
-      url: "https://www.designboom.com/architecture/feed/",
+      domain: "inhabitat.com",
+      url: "https://inhabitat.com/architecture/feed/",
+    },
+    {
+      domain: "contemporist.com",
+      url: "https://www.contemporist.com/feed/",
+    },
+    {
+      domain: "design-milk.com",
+      url: "https://design-milk.com/category/architecture/feed/",
+    },
+    {
+      domain: "youtube.com",
+      url: "https://www.youtube.com/feeds/videos.xml4",
+    },
+    {
+      domain: "youtube.com",
+      url: "https://www.youtube.com/feeds/videos.xml5",
+    },
+    {
+      domain: "archidose.blogspot.com",
+      url: "http://feeds.feedburner.com/archidose",
     },
   ],
   beauty: [
