@@ -531,12 +531,32 @@ export const categorizedFeeds = {
       domain: "elle.com",
     },
     {
+      url: "https://www.popsugar.com/beauty/feed",
+      domain: "popsugar.com",
+    },
+    {
+      url: "https://www.refinery29.com/beauty/rss.xml",
+      domain: "refinery29.com",
+    },
+    {
       url: "https://fashionista.com/rss/excerpt/beauty",
       domain: "fashionista.com",
     },
     {
+      url: "https://feeds.feedburner.com/intothegloss/oqoU",
+      domain: "intothegloss.com",
+    },
+    {
       url: "https://www.fashionlady.in/category/beauty-tips/feed",
       domain: "fashionlady.in",
+    },
+    {
+      url: "https://www.yesstyle.com/blog/category/the-beauty-blog/feed/",
+      domain: "yesstyle.com",
+    },
+    {
+      url: "https://thebeautylookbook.com/feed",
+      domain: "thebeautylookbook.com",
     },
     {
       url: "https://thebeautybrains.com/blog/feed/",
@@ -550,35 +570,11 @@ export const categorizedFeeds = {
       url: "http://feeds.feedburner.com/frmheadtotoe",
       domain: "frmheadtotoe.com",
     },
-    {
-      url: "https://feeds.feedburner.com/intothegloss/oqoU",
-      domain: "intothegloss.com",
-    },
-    {
-      url: "https://www.popsugar.com/beauty/feed",
-      domain: "popsugar.com",
-    },
-    {
-      url: "https://www.refinery29.com/beauty/rss.xml",
-      domain: "refinery29.com",
-    },
-    {
-      url: "https://www.yesstyle.com/blog/category/the-beauty-blog/feed/",
-      domain: "yesstyle.com",
-    },
-    {
-      url: "https://thebeautylookbook.com/feed",
-      domain: "thebeautylookbook.com",
-    },
   ],
   books: [
     {
-      url: "https://ayearofreadingtheworld.com/feed/",
-      domain: "ayearofreadingtheworld.com",
-    },
-    {
-      url: "https://aestasbookblog.com/feed/",
-      domain: "aestasbookblog.com",
+      url: "https://reddit.com/r/books/.rss",
+      domain: "reddit.com",
     },
     {
       url: "https://bookriot.com/feed/",
@@ -593,8 +589,12 @@ export const categorizedFeeds = {
       domain: "newinbooks.com",
     },
     {
-      url: "https://reddit.com/r/books/.rss",
-      domain: "reddit.com",
+      url: "https://ayearofreadingtheworld.com/feed/",
+      domain: "ayearofreadingtheworld.com",
+    },
+    {
+      url: "https://aestasbookblog.com/feed/",
+      domain: "aestasbookblog.com",
     },
     {
       url: "https://wokeread.home.blog/feed/",
@@ -603,28 +603,12 @@ export const categorizedFeeds = {
   ],
   business_economy: [
     {
-      url: "https://www.investing.com/rss/news.rss",
-      domain: "investing.com",
-    },
-    {
       url: "https://www.youtube.com/feeds/videos.xml?user=Bloomberg",
       domain: "youtube.com",
     },
     {
-      url: "https://seekingalpha.com/market_currents.xml",
-      domain: "seekingalpha.com",
-    },
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?user=businessinsider",
-      domain: "youtube.com",
-    },
-    {
-      url: "https://ducttape.libsyn.com/rss",
-      domain: "ducttapemarketing.com",
-    },
-    {
-      url: "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
-      domain: "economictimes.indiatimes.com",
+      url: "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      domain: "cnbc.com",
     },
     {
       url: "https://www.forbes.com/business/feed/",
@@ -635,45 +619,77 @@ export const categorizedFeeds = {
       domain: "fortune.com",
     },
     {
-      url: "http://feeds.harvardbusiness.org/harvardbusiness/ideacast",
-      domain: "hbr.org",
+      url: "https://finance.yahoo.com/news/rss/index",
+      domain: "finance.yahoo.com",
     },
     {
-      url: "https://www.business-standard.com/rss/home_page_top_stories.rss",
-      domain: "business-standard.com",
+      url: "https://www.youtube.com/feeds/videos.xml?user=businessinsider",
+      domain: "youtube.com",
     },
     {
       url: "https://feeds.npr.org/510313/podcast.xml",
       domain: "npr.org",
     },
     {
-      url: "https://feeds.feedburner.com/Mixergy-main-podcast",
-      domain: "mixergy.com",
+      url: "http://feeds.harvardbusiness.org/harvardbusiness/ideacast",
+      domain: "hbr.org",
+    },
+    {
+      url: "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      domain: "economictimes.indiatimes.com",
+    },
+    {
+      url: "https://www.business-standard.com/rss/home_page_top_stories.rss",
+      domain: "business-standard.com",
+    },
+    {
+      url: "https://seekingalpha.com/market_currents.xml",
+      domain: "seekingalpha.com",
+    },
+    {
+      url: "https://www.investing.com/rss/news.rss",
+      domain: "investing.com",
     },
     {
       url: "https://tim.blog/feed/",
       domain: "tim.blog",
     },
     {
+      url: "https://feeds.feedburner.com/Mixergy-main-podcast",
+      domain: "mixergy.com",
+    },
+    {
       url: "http://thegrowthshow.hubspot.libsynpro.com/",
       domain: "hubspot.com",
     },
     {
-      url: "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-      domain: "cnbc.com",
-    },
-    {
-      url: "https://finance.yahoo.com/news/rss/index",
-      domain: "finance.yahoo.com",
+      url: "https://ducttape.libsyn.com/rss",
+      domain: "ducttapemarketing.com",
     },
   ],
   cars: [
+    {
+      url: "https://www.reddit.com/r/formula1/.rss",
+      domain: "reddit.com",
+    },
+    {
+      url: "https://www.caranddriver.com/rss/all.xml",
+      domain: "caranddriver.com",
+    },
+    {
+      url: "http://jalopnik.com/rss",
+      domain: "jalopnik.com",
+    },
     {
       url: "https://www.autoblog.com/rss.xml",
       domain: "autoblog.com",
     },
     {
-      url: "https://www.autocarindia.com/RSS.ashx?type=all_bikes",
+      url: "https://www.autocar.co.uk/rss",
+      domain: "autocar.co.uk",
+    },
+    {
+      url: "https://www.autocarindia.com/RSS.ashx?type=News",
       domain: "autocarindia.com",
     },
     {
@@ -681,52 +697,12 @@ export const categorizedFeeds = {
       domain: "autocarindia.com",
     },
     {
-      url: "https://www.autocarindia.com/RSS.ashx?type=News",
+      url: "https://www.autocarindia.com/RSS.ashx?type=all_bikes",
       domain: "autocarindia.com",
-    },
-    {
-      url: "https://www.autocar.co.uk/rss",
-      domain: "autocar.co.uk",
-    },
-    {
-      url: "https://feeds.feedburner.com/BmwBlog",
-      domain: "bmwblog.com",
-    },
-    {
-      url: "https://www.bikeexif.com/feed",
-      domain: "bikeexif.com",
-    },
-    {
-      url: "https://www.carbodydesign.com/feed/",
-      domain: "carbodydesign.com",
     },
     {
       url: "https://www.carscoops.com/feed/",
       domain: "carscoops.com",
-    },
-    {
-      url: "https://www.reddit.com/r/formula1/.rss",
-      domain: "reddit.com",
-    },
-    {
-      url: "http://jalopnik.com/rss",
-      domain: "jalopnik.com",
-    },
-    {
-      url: "https://www.caranddriver.com/rss/all.xml",
-      domain: "caranddriver.com",
-    },
-    {
-      url: "https://petrolicious.com/feed",
-      domain: "petrolicious.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/autonews/AutomakerNews",
-      domain: "autonews.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/autonews/EditorsPicks",
-      domain: "autonews.com",
     },
     {
       url: "http://feeds.feedburner.com/speedhunters",
@@ -737,8 +713,32 @@ export const categorizedFeeds = {
       domain: "thetruthaboutcars.com",
     },
     {
+      url: "http://feeds.feedburner.com/autonews/AutomakerNews",
+      domain: "autonews.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/autonews/EditorsPicks",
+      domain: "autonews.com",
+    },
+    {
       url: "https://bringatrailer.com/feed/",
       domain: "bringatrailer.com",
+    },
+    {
+      url: "https://petrolicious.com/feed",
+      domain: "petrolicious.com",
+    },
+    {
+      url: "https://www.carbodydesign.com/feed/",
+      domain: "carbodydesign.com",
+    },
+    {
+      url: "https://feeds.feedburner.com/BmwBlog",
+      domain: "bmwblog.com",
+    },
+    {
+      url: "https://www.bikeexif.com/feed",
+      domain: "bikeexif.com",
     },
   ],
   cricket: [
@@ -1181,40 +1181,20 @@ export const categorizedFeeds = {
   ],
   gaming: [
     {
-      url: "https://www.escapistmagazine.com/v2/feed/",
-      domain: "escapistmagazine.com",
-    },
-    {
-      url: "https://www.eurogamer.net/?format=rss",
-      domain: "eurogamer.net",
-    },
-    {
-      url: "http://feeds.feedburner.com/GamasutraNews",
-      domain: "gamasutra.com",
-    },
-    {
-      url: "https://www.gamespot.com/feeds/mashup/",
-      domain: "gamespot.com",
+      url: "https://www.reddit.com/r/gaming/.rss",
+      domain: "reddit.com",
     },
     {
       url: "http://feeds.ign.com/ign/all",
       domain: "ign.com",
     },
     {
-      url: "https://indiegamesplus.com/feed",
-      domain: "indiegamesplus.com",
+      url: "https://www.gamespot.com/feeds/mashup/",
+      domain: "gamespot.com",
     },
     {
       url: "https://kotaku.com/rss",
       domain: "kotaku.com",
-    },
-    {
-      url: "https://www.makeupandbeautyblog.com/feed/",
-      domain: "makeupandbeautyblog.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/psblog",
-      domain: "blog.playstation.com",
     },
     {
       url: "https://www.polygon.com/rss/index.xml",
@@ -1225,24 +1205,44 @@ export const categorizedFeeds = {
       domain: "rockpapershotgun.com",
     },
     {
+      url: "https://www.eurogamer.net/?format=rss",
+      domain: "eurogamer.net",
+    },
+    {
       url: "https://store.steampowered.com/feeds/news.xml",
       domain: "steampowered.com",
     },
     {
-      url: "http://feeds.feedburner.com/TheAncientGamingNoob",
-      domain: "tagn.wordpress.com",
-    },
-    {
-      url: "https://toucharcade.com/community/forums/index.rss",
-      domain: "toucharcade.com",
+      url: "http://feeds.feedburner.com/psblog",
+      domain: "blog.playstation.com",
     },
     {
       url: "https://majornelson.com/feed/",
       domain: "majornelson.com",
     },
     {
-      url: "https://www.reddit.com/r/gaming/.rss",
-      domain: "reddit.com",
+      url: "http://feeds.feedburner.com/GamasutraNews",
+      domain: "gamasutra.com",
+    },
+    {
+      url: "https://www.escapistmagazine.com/v2/feed/",
+      domain: "escapistmagazine.com",
+    },
+    {
+      url: "https://indiegamesplus.com/feed",
+      domain: "indiegamesplus.com",
+    },
+    {
+      url: "https://toucharcade.com/community/forums/index.rss",
+      domain: "toucharcade.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/TheAncientGamingNoob",
+      domain: "tagn.wordpress.com",
+    },
+    {
+      url: "https://www.makeupandbeautyblog.com/feed/",
+      domain: "makeupandbeautyblog.com",
     },
   ],
   history: [
@@ -1293,8 +1293,52 @@ export const categorizedFeeds = {
   ],
   ios_development: [
     {
+      url: "https://developer.apple.com/news/rss/news.rss",
+      domain: "developer.apple.com",
+    },
+    {
+      url: "https://www.swiftbysundell.com/feed.rss",
+      domain: "swiftbysundell.com",
+    },
+    {
+      url: "https://swiftbysundell.com/feed.rss",
+      domain: "swiftbysundell.com",
+    },
+    {
+      url: "https://swiftrocks.com/rss.xml",
+      domain: "swiftrocks.com",
+    },
+    {
+      url: "https://useyourloaf.com/blog/rss.xml",
+      domain: "useyourloaf.com",
+    },
+    {
+      url: "https://olebegemann.com/blog/atom.xml",
+      domain: "olebegemann.com",
+    },
+    {
+      url: "https://inessential.com/xml/rss.xml",
+      domain: "inessential.com",
+    },
+    {
+      url: "https://jakewharton.com/atom.xml",
+      domain: "jakewharton.com",
+    },
+    {
+      url: "https://www.relay.fm/radar/feed",
+      domain: "relay.fm",
+    },
+    {
+      url: "https://feeds.fireside.fm/mrc/rss",
+      domain: "mrc.fireside.fm",
+    },
+    {
       url: "https://feeds.devchat.tv/all-shows-devchat.rss",
       domain: "devchat.tv",
+    },
+    {
+      url: "https://atomicbirdhouse.com/index.xml",
+      domain: "atomicbirdhouse.com",
     },
     {
       url: "https://albertodebortoli.com/rss",
@@ -1317,48 +1361,8 @@ export const categorizedFeeds = {
       domain: "mobileally.co",
     },
     {
-      url: "https://feeds.fireside.fm/mrc/rss",
-      domain: "mrc.fireside.fm",
-    },
-    {
-      url: "https://developer.apple.com/news/rss/news.rss",
-      domain: "developer.apple.com",
-    },
-    {
-      url: "https://olebegemann.com/blog/atom.xml",
-      domain: "olebegemann.com",
-    },
-    {
       url: "https://irakpavel.tech/feed.xml",
       domain: "irakpavel.tech",
-    },
-    {
-      url: "https://www.swiftbysundell.com/feed.rss",
-      domain: "swiftbysundell.com",
-    },
-    {
-      url: "https://swiftbysundell.com/feed.rss",
-      domain: "swiftbysundell.com",
-    },
-    {
-      url: "https://swiftrocks.com/rss.xml",
-      domain: "swiftrocks.com",
-    },
-    {
-      url: "https://atomicbirdhouse.com/index.xml",
-      domain: "atomicbirdhouse.com",
-    },
-    {
-      url: "https://www.relay.fm/radar/feed",
-      domain: "relay.fm",
-    },
-    {
-      url: "https://useyourloaf.com/blog/rss.xml",
-      domain: "useyourloaf.com",
-    },
-    {
-      url: "https://inessential.com/xml/rss.xml",
-      domain: "inessential.com",
     },
     {
       url: "https://tyler.io/feed/",
@@ -1367,48 +1371,48 @@ export const categorizedFeeds = {
   ],
   movies: [
     {
-      url: "http://feeds.feedburner.com/slashfilm",
-      domain: "slashfilm.com",
-    },
-    {
-      url: "https://www.aintitcool.com/node/feed/",
-      domain: "aintitcool.com",
-    },
-    {
-      url: "https://www.comingsoon.net/feed",
-      domain: "comingsoon.net",
+      url: "https://www.reddit.com/r/movies/.rss",
+      domain: "reddit.com",
     },
     {
       url: "https://deadline.com/feed/",
       domain: "deadline.com",
     },
     {
-      url: "https://filmschoolrejects.com/feed/",
-      domain: "filmschoolrejects.com",
-    },
-    {
-      url: "https://www.firstshowing.net/feed/",
-      domain: "firstshowing.net",
+      url: "https://variety.com/feed/",
+      domain: "variety.com",
     },
     {
       url: "https://www.indiewire.com/feed/",
       domain: "indiewire.com",
     },
     {
-      url: "https://www.reddit.com/r/movies/.rss",
-      domain: "reddit.com",
+      url: "http://feeds.feedburner.com/slashfilm",
+      domain: "slashfilm.com",
     },
     {
-      url: "https://www.bleedingcool.com/movies/feed/",
-      domain: "bleedingcool.com",
+      url: "https://www.comingsoon.net/feed",
+      domain: "comingsoon.net",
+    },
+    {
+      url: "https://www.firstshowing.net/feed/",
+      domain: "firstshowing.net",
     },
     {
       url: "https://www.avclub.com/rss",
       domain: "avclub.com",
     },
     {
-      url: "https://variety.com/feed/",
-      domain: "variety.com",
+      url: "https://filmschoolrejects.com/feed/",
+      domain: "filmschoolrejects.com",
+    },
+    {
+      url: "https://www.bleedingcool.com/movies/feed/",
+      domain: "bleedingcool.com",
+    },
+    {
+      url: "https://www.aintitcool.com/node/feed/",
+      domain: "aintitcool.com",
     },
   ],
   music: [
@@ -1417,32 +1421,32 @@ export const categorizedFeeds = {
       domain: "billboard.com",
     },
     {
+      url: "http://pitchfork.com/rss/news",
+      domain: "pitchfork.com",
+    },
+    {
       url: "http://consequenceofsound.net/feed",
       domain: "consequence.net",
-    },
-    {
-      url: "https://edm.com/rss/feed",
-      domain: "edm.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/metalinjection",
-      domain: "metalinjection.net",
     },
     {
       url: "https://www.musicbusinessworldwide.com/feed/",
       domain: "musicbusinessworldwide.com",
     },
     {
-      url: "http://pitchfork.com/rss/news",
-      domain: "pitchfork.com",
-    },
-    {
       url: "http://songexploder.net/feed",
       domain: "songexploder.net",
     },
     {
+      url: "https://edm.com/rss/feed",
+      domain: "edm.com",
+    },
+    {
       url: "https://www.youredm.com/feed",
       domain: "youredm.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/metalinjection",
+      domain: "metalinjection.net",
     },
   ],
   news: [
@@ -1455,20 +1459,12 @@ export const categorizedFeeds = {
       domain: "cnn.com",
     },
     {
-      url: "https://www.cnbc.com/id/100727362/device/rss/rss.html",
-      domain: "cnbc.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/ndtvnews-world-news",
-      domain: "ndtv.com",
-    },
-    {
       url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
       domain: "nytimes.com",
     },
     {
-      url: "https://news.google.com/news",
-      domain: "news.google.com",
+      url: "https://www.theguardian.com/world/rss",
+      domain: "theguardian.com",
     },
     {
       url: "http://feeds.washingtonpost.com/rss/world",
@@ -1479,16 +1475,24 @@ export const categorizedFeeds = {
       domain: "reddit.com",
     },
     {
-      url: "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
-      domain: "timesofindia.indiatimes.com",
-    },
-    {
-      url: "https://www.theguardian.com/world/rss",
-      domain: "theguardian.com",
+      url: "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+      domain: "cnbc.com",
     },
     {
       url: "https://www.yahoo.com/news/rss",
       domain: "yahoo.com",
+    },
+    {
+      url: "https://news.google.com/news",
+      domain: "news.google.com",
+    },
+    {
+      url: "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+      domain: "timesofindia.indiatimes.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/ndtvnews-world-news",
+      domain: "ndtv.com",
     },
   ],
   personal_finance: [
@@ -1657,6 +1661,18 @@ export const categorizedFeeds = {
   ],
   science: [
     {
+      url: "https://www.reddit.com/r/science/.rss",
+      domain: "reddit.com",
+    },
+    {
+      url: "https://www.nature.com/nature.rss",
+      domain: "feeds.nature.com",
+    },
+    {
+      url: "https://rss.sciam.com/ScientificAmericanGlobal",
+      domain: "scientificamerican.com",
+    },
+    {
       url: "http://feeds.sciam.com/sciam/60secsciencepodcast",
       domain: "scientificamerican.com",
     },
@@ -1665,88 +1681,76 @@ export const categorizedFeeds = {
       domain: "bbc.co.uk",
     },
     {
-      url: "http://podcasts.files.bbci.co.uk/p02w57nt",
-      domain: "bbc.co.uk",
-    },
-    {
-      url: "https://flowingdata.com/feed",
-      domain: "flowingdata.com",
-    },
-    {
-      url: "https://omnystudio.com/d/playlist/a537e28a-af51-495e-afcc-a7600146022b/2a105077-1014-41d2-831f-ab190186b4d5/podcast.rss",
-      domain: "gastropod.com",
-    },
-    {
-      url: "https://gizmodo.com/tag/science/rss",
-      domain: "gizmodo.com",
-    },
-    {
-      url: "https://feeds.npr.org/510306/podcast.xml",
-      domain: "hiddenbrain.org",
-    },
-    {
-      url: "https://feeds.npr.org/510307/podcast.xml",
-      domain: "npr.org",
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
+      domain: "nytimes.com",
     },
     {
       url: "https://www.sciencedaily.com/rss/all.xml",
       domain: "sciencedaily.com",
     },
     {
-      url: "https://rss.nytimes.com/services/xml/rss/nyt/Science.xml",
-      domain: "nytimes.com",
-    },
-    {
-      url: "https://www.nature.com/nature.rss",
-      domain: "feeds.nature.com",
-    },
-    {
       url: "https://phys.org/rss-feed/",
       domain: "phys.org",
-    },
-    {
-      url: "https://probablyscience.libsyn.com/rss",
-      domain: "probablyscience.com",
-    },
-    {
-      url: "http://feeds.wnyc.org/radiolab",
-      domain: "wnycstudios.org",
-    },
-    {
-      url: "https://www.reddit.com/r/science/.rss",
-      domain: "reddit.com",
-    },
-    {
-      url: "https://feeds.simplecast.com/Ly11F_52",
-      domain: "sawbones.simplecast.com",
     },
     {
       url: "https://www.wired.com/feed/category/science/latest/rss",
       domain: "wired.com",
     },
     {
-      url: "https://feeds.gimletmedia.com/sciencevs",
-      domain: "gimletmedia.com",
+      url: "https://gizmodo.com/tag/science/rss",
+      domain: "gizmodo.com",
     },
     {
-      url: "https://sciencebasedmedicine.org/feed/",
-      domain: "sciencebasedmedicine.org",
+      url: "https://feeds.npr.org/510307/podcast.xml",
+      domain: "npr.org",
     },
     {
-      url: "https://rss.sciam.com/ScientificAmericanGlobal",
-      domain: "scientificamerican.com",
+      url: "https://feeds.npr.org/510306/podcast.xml",
+      domain: "hiddenbrain.org",
     },
     {
-      url: "http://shirtloadsofscience.libsyn.com/rss",
-      domain: "shirtloadsofscience.libsyn.com",
+      url: "http://feeds.wnyc.org/radiolab",
+      domain: "wnycstudios.org",
     },
     {
       url: "https://www.ted.com/feeds/talks.rss",
       domain: "ted.com",
     },
     {
+      url: "https://feeds.gimletmedia.com/sciencevs",
+      domain: "gimletmedia.com",
+    },
+    {
+      url: "https://feeds.simplecast.com/Ly11F_52",
+      domain: "sawbones.simplecast.com",
+    },
+    {
+      url: "https://omnystudio.com/d/playlist/a537e28a-af51-495e-afcc-a7600146022b/2a105077-1014-41d2-831f-ab190186b4d5/podcast.rss",
+      domain: "gastropod.com",
+    },
+    {
+      url: "https://sciencebasedmedicine.org/feed/",
+      domain: "sciencebasedmedicine.org",
+    },
+    {
+      url: "https://flowingdata.com/feed",
+      domain: "flowingdata.com",
+    },
+    {
+      url: "https://probablyscience.libsyn.com/rss",
+      domain: "probablyscience.com",
+    },
+    {
+      url: "http://podcasts.files.bbci.co.uk/p02w57nt",
+      domain: "bbc.co.uk",
+    },
+    {
       url: "http://podcasts.files.bbci.co.uk/b00snr0g.rss",
       domain: "bbc.co.uk",
+    },
+    {
+      url: "http://shirtloadsofscience.libsyn.com/rss",
+      domain: "shirtloadsofscience.libsyn.com",
     },
     {
       url: "http://www.twis.org/feed/",
@@ -1755,32 +1759,32 @@ export const categorizedFeeds = {
   ],
   space: [
     {
-      url: "https://www.reddit.com/r/space/.rss?format=xml",
-      domain: "reddit.com",
-    },
-    {
       url: "https://www.nasa.gov/rss/dyn/breaking_news.rss",
       domain: "nasa.gov",
     },
     {
-      url: "https://www.newscientist.com/subject/space/feed",
-      domain: "newscientist.com",
+      url: "https://www.reddit.com/r/space/.rss?format=xml",
+      domain: "reddit.com",
     },
     {
-      url: "https://www.skyandtelescope.com/feed",
-      domain: "skyandtelescope.org",
-    },
-    {
-      url: "https://www.theguardian.com/science/space/rss",
-      domain: "theguardian.com",
+      url: "https://www.youtube.com/feeds/videos.xml?user=spacexchannel",
+      domain: "youtube.com",
     },
     {
       url: "http://www.space.com/feeds/all",
       domain: "space.com",
     },
     {
-      url: "https://www.youtube.com/feeds/videos.xml?user=spacexchannel",
-      domain: "youtube.com",
+      url: "https://www.skyandtelescope.com/feed",
+      domain: "skyandtelescope.org",
+    },
+    {
+      url: "https://www.newscientist.com/subject/space/feed",
+      domain: "newscientist.com",
+    },
+    {
+      url: "https://www.theguardian.com/science/space/rss",
+      domain: "theguardian.com",
     },
   ],
   sports: [
@@ -1793,6 +1797,14 @@ export const categorizedFeeds = {
       domain: "reddit.com",
     },
     {
+      url: "https://www.espn.com/espn/rss/news",
+      domain: "espn.com",
+    },
+    {
+      url: "https://sports.yahoo.com/rss",
+      domain: "sports.yahoo.com",
+    },
+    {
       url: "http://feeds.skynews.com/feeds/xml/sports.xml",
       domain: "skynews.com",
     },
@@ -1800,59 +1812,11 @@ export const categorizedFeeds = {
       url: "https://www.sportskeeda.com/feed",
       domain: "sportskeeda.com",
     },
-    {
-      url: "https://sports.yahoo.com/rss",
-      domain: "sports.yahoo.com",
-    },
-    {
-      url: "https://www.espn.com/espn/rss/news",
-      domain: "espn.com",
-    },
   ],
   startups: [
     {
-      url: "https://avc.com/feed/",
-      domain: "avc.com",
-    },
-    {
-      url: "https://bothsidesofthetable.com/feed",
-      domain: "bothsidesofthetable.com",
-    },
-    {
-      url: "http://feeds.feedburner.com/entrepreneur/latest",
-      domain: "entrepreneur.com",
-    },
-    {
-      url: "https://feld.com/feed",
-      domain: "feld.com",
-    },
-    {
-      url: "https://www.forbes.com/entrepreneurs/feed/",
-      domain: "forbes.com",
-    },
-    {
-      url: "https://www.youtube.com/feeds/sdeus.xmlthmer-spacexchannel",
-      domain: "youtube.com",
-    },
-    {
       url: "https://hnrss.org/frontpage",
       domain: "news.ycombinator.com",
-    },
-    {
-      url: "https://www.inc.com/rss/",
-      domain: "inc.com",
-    },
-    {
-      url: "https://www.intercom.com/blog/feed",
-      domain: "intercom.com",
-    },
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw4",
-      domain: "youtube.com",
-    },
-    {
-      url: "https://rss.art19.com/masters-of-scale",
-      domain: "mastersofscale.com",
     },
     {
       url: "http://www.aaronsw.com/2002/feeds/pgessays.rss",
@@ -1863,8 +1827,56 @@ export const categorizedFeeds = {
       domain: "producthunt.com",
     },
     {
-      url: "https://www.quicksprout.com/rss",
-      domain: "quicksprout.com",
+      url: "https://feeds.feedburner.com/venturebeat/SZYF",
+      domain: "venturebeat.com",
+    },
+    {
+      url: "https://www.forbes.com/entrepreneurs/feed/",
+      domain: "forbes.com",
+    },
+    {
+      url: "https://www.inc.com/rss/",
+      domain: "inc.com",
+    },
+    {
+      url: "http://feeds.feedburner.com/entrepreneur/latest",
+      domain: "entrepreneur.com",
+    },
+    {
+      url: "https://avc.com/feed/",
+      domain: "avc.com",
+    },
+    {
+      url: "https://bothsidesofthetable.com/feed",
+      domain: "bothsidesofthetable.com",
+    },
+    {
+      url: "https://feld.com/feed",
+      domain: "feld.com",
+    },
+    {
+      url: "https://feld.com/archives/tag/blog/feed",
+      domain: "feld.com",
+    },
+    {
+      url: "https://steveblank.com/feed/",
+      domain: "steveblank.com",
+    },
+    {
+      url: "https://www.intercom.com/blog/feed",
+      domain: "intercom.com",
+    },
+    {
+      url: "https://rss.art19.com/masters-of-scale",
+      domain: "mastersofscale.com",
+    },
+    {
+      url: "https://rss.art19.com/tim-ferriss-show",
+      domain: "tim.blog",
+    },
+    {
+      url: "http://feeds.feedburner.com/twistvid",
+      domain: "thisweekinstartups.com",
     },
     {
       url: "https://feeds.feedburner.com/SmallBusinessTrends",
@@ -1879,185 +1891,126 @@ export const categorizedFeeds = {
       domain: "springwise.com",
     },
     {
-      url: "https://steveblank.com/feed/",
-      domain: "steveblank.com",
-    },
-    {
       url: "https://startupjunkie.libsyn.com/rss",
       domain: "startupjunkie.org",
     },
     {
-      url: "https://rss.art19.com/tim-ferriss-show",
-      domain: "tim.blog",
+      url: "https://www.quicksprout.com/rss",
+      domain: "quicksprout.com",
     },
     {
-      url: "http://feeds.feedburner.com/twistvid",
-      domain: "thisweekinstartups.com",
+      url: "https://www.youtube.com/feeds/sdeus.xmlthmer-spacexchannel",
+      domain: "youtube.com",
     },
     {
-      url: "https://feeds.feedburner.com/venturebeat/SZYF",
-      domain: "venturebeat.com",
-    },
-    {
-      url: "https://feld.com/archives/tag/blog/feed",
-      domain: "feld.com",
+      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw4",
+      domain: "youtube.com",
     },
   ],
   tech: [
     {
-      url: "https://atp.fm/rss",
-
-      domain: "atp.fm",
-    },
-
-    {
-      url: "https://www.relay.fm/analogue/feed",
-
-      domain: "relay.fm",
-    },
-
-    {
-      url: "http://feeds.arstechnica.com/arstechnica/index",
-
-      domain: "arstechnica.com",
-    },
-
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?user=GaryVaynerchuk",
-
-      domain: "youtube.com",
-    },
-
-    {
-      url: "https://www.cnet.com/rss/news/",
-
-      domain: "cnet.com",
-    },
-
-    {
-      url: "https://www.relay.fm/clockwise/feed",
-
-      domain: "relay.fm",
-    },
-
-    {
-      url: "https://gizmodo.com/rss",
-
-      domain: "gizmodo.com",
-    },
-
-    {
       url: "https://news.ycombinator.com/rss",
-
       domain: "news.ycombinator.com",
     },
-
-    {
-      url: "https://lifehacker.com/rss",
-
-      domain: "lifehacker.com",
-    },
-
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?user=marieforleo",
-
-      domain: "youtube.com",
-    },
-
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw7",
-
-      domain: "youtube.com",
-    },
-
-    {
-      url: "http://feeds.mashable.com/Mashable",
-
-      domain: "mashable.com",
-    },
-
-    {
-      url: "https://readwrite.com/feed/",
-
-      domain: "readwrite.com",
-    },
-
-    {
-      url: "https://feeds.megaphone.fm/replyall",
-
-      domain: "gimletmedia.com",
-    },
-
-    {
-      url: "https://www.relay.fm/rocket/feed",
-
-      domain: "relay.fm",
-    },
-
-    {
-      url: "http://rss.slashdot.org/Slashdot/slashdotMain",
-
-      domain: "slashdot.org",
-    },
-
-    {
-      url: "http://stratechery.com/feed?",
-
-      domain: "stratechery.com",
-    },
-
-    {
-      url: "http://feeds.feedburner.com/TechCrunch",
-
-      domain: "techcrunch.com",
-    },
-
-    {
-      url: "https://www.blog.google/rss/",
-
-      domain: "blog.google",
-    },
-
-    {
-      url: "https://thenextweb.com/feed/",
-
-      domain: "thenextweb.com",
-    },
-
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw8",
-
-      domain: "youtube.com",
-    },
-
     {
       url: "https://www.theverge.com/rss/index.xml",
-
       domain: "theverge.com",
     },
-
     {
-      url: "https://feeds.megaphone.fm/vergecast",
-
-      domain: "theverge.com",
+      url: "http://feeds.feedburner.com/TechCrunch",
+      domain: "techcrunch.com",
     },
-
     {
-      url: "https://feeds.twit.tv/twit.xml",
-
-      domain: "twit.tv",
+      url: "http://feeds.arstechnica.com/arstechnica/index",
+      domain: "arstechnica.com",
     },
-
-    {
-      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw9",
-
-      domain: "youtube.com",
-    },
-
     {
       url: "https://www.engadget.com/rss.xml",
-
       domain: "engadget.com",
+    },
+    {
+      url: "https://www.cnet.com/rss/news/",
+      domain: "cnet.com",
+    },
+    {
+      url: "https://gizmodo.com/rss",
+      domain: "gizmodo.com",
+    },
+    {
+      url: "http://rss.slashdot.org/Slashdot/slashdotMain",
+      domain: "slashdot.org",
+    },
+    {
+      url: "https://lifehacker.com/rss",
+      domain: "lifehacker.com",
+    },
+    {
+      url: "http://feeds.mashable.com/Mashable",
+      domain: "mashable.com",
+    },
+    {
+      url: "https://www.blog.google/rss/",
+      domain: "blog.google",
+    },
+    {
+      url: "https://thenextweb.com/feed/",
+      domain: "thenextweb.com",
+    },
+    {
+      url: "https://readwrite.com/feed/",
+      domain: "readwrite.com",
+    },
+    {
+      url: "http://stratechery.com/feed?",
+      domain: "stratechery.com",
+    },
+    {
+      url: "https://feeds.twit.tv/twit.xml",
+      domain: "twit.tv",
+    },
+    {
+      url: "https://feeds.megaphone.fm/vergecast",
+      domain: "theverge.com",
+    },
+    {
+      url: "https://feeds.megaphone.fm/replyall",
+      domain: "gimletmedia.com",
+    },
+    {
+      url: "https://atp.fm/rss",
+      domain: "atp.fm",
+    },
+    {
+      url: "https://www.relay.fm/analogue/feed",
+      domain: "relay.fm",
+    },
+    {
+      url: "https://www.relay.fm/clockwise/feed",
+      domain: "relay.fm",
+    },
+    {
+      url: "https://www.relay.fm/rocket/feed",
+      domain: "relay.fm",
+    },
+    {
+      url: "https://www.youtube.com/feeds/videos.xml?user=GaryVaynerchuk",
+      domain: "youtube.com",
+    },
+    {
+      url: "https://www.youtube.com/feeds/videos.xml?user=marieforleo",
+      domain: "youtube.com",
+    },
+    {
+      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw7",
+      domain: "youtube.com",
+    },
+    {
+      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw8",
+      domain: "youtube.com",
+    },
+    {
+      url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCSLXy31l220sdDeeAX5JpPw9",
+      domain: "youtube.com",
     },
   ],
 
@@ -2160,32 +2113,28 @@ export const categorizedFeeds = {
       domain: "smashingmagazine.com",
     },
     {
-      url: "http://boxesandarrows.com/rss/",
-      domain: "boxesandarrows.com",
+      url: "https://www.reddit.com/r/userexperience/.rss",
+      domain: "reddit.com",
     },
     {
-      url: "https://www.designernews.co/?format=rss",
-      domain: "designernews.co",
-    },
-    {
-      url: "https://www.invisionapp.com/inside-design/feed",
-      domain: "invisionapp.com",
-    },
-    {
-      url: "https://feeds.feedburner.com/JustCreativeDesignBlog",
-      domain: "justcreative.com",
+      url: "https://uxdesign.cc/feed",
+      domain: "uxdesign.cc",
     },
     {
       url: "https://www.nngroup.com/feed/rss/",
       domain: "nngroup.com",
     },
     {
-      url: "https://uxstudioteam.com/ux-blog/feed/",
-      domain: "uxstudioteam.com",
+      url: "https://www.invisionapp.com/inside-design/feed",
+      domain: "invisionapp.com",
     },
     {
-      url: "https://uxdesign.cc/feed",
-      domain: "uxdesign.cc",
+      url: "https://www.designernews.co/?format=rss",
+      domain: "designernews.co",
+    },
+    {
+      url: "https://uxstudioteam.com/ux-blog/feed/",
+      domain: "uxstudioteam.com",
     },
     {
       url: "https://uxmovement.com/feed/",
@@ -2196,38 +2145,42 @@ export const categorizedFeeds = {
       domain: "usabilitygeek.com",
     },
     {
-      url: "https://www.reddit.com/r/userexperience/.rss",
-      domain: "reddit.com",
+      url: "https://feeds.feedburner.com/JustCreativeDesignBlog",
+      domain: "justcreative.com",
+    },
+    {
+      url: "http://boxesandarrows.com/rss/",
+      domain: "boxesandarrows.com",
     },
   ],
   web_development: [
-    {
-      url: "https://alistapart.com/main/feed/",
-      domain: "alistapart.com",
-    },
     {
       url: "https://css-tricks.com/feed/",
       domain: "css-tricks.com",
     },
     {
-      url: "https://www.codewall.co.uk/feed/",
-      domain: "codewall.co.uk",
-    },
-    {
-      url: "https://davidwalsh.name/feed",
-      domain: "davidwalsh.name",
+      url: "https://alistapart.com/main/feed/",
+      domain: "alistapart.com",
     },
     {
       url: "https://hacks.mozilla.org/feed/",
       domain: "hacks.mozilla.org",
     },
     {
-      url: "https://gosink.in/rss/",
-      domain: "gosink.in",
-    },
-    {
       url: "https://developers.google.com/web/updates/rss.xml",
       domain: "developers.google.com",
+    },
+    {
+      url: "https://davidwalsh.name/feed",
+      domain: "davidwalsh.name",
+    },
+    {
+      url: "https://www.codewall.co.uk/feed/",
+      domain: "codewall.co.uk",
+    },
+    {
+      url: "https://gosink.in/rss/",
+      domain: "gosink.in",
     },
   ],
 };
